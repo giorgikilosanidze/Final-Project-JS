@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(25, 24, 24);
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+.main_div {
+    background: linear-gradient(to right, #2E3192, #1BFFFF);
+    width: 500px;
+    margin: 30px auto 0;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.search_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.search_form input {
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(233, 229, 229);
+}
+
+.search_form button {
+    width: 60px;
+    height: 43.2px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search_form button img {
+    height: 20px;
+}
+
+.weather_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 20px;
+}
+
+.weather_div h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.weather_div h2 {
+    font-size:45px;
+    color: white;
+}
+
+.weather_div h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.humidity_wind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.humidity_wind div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.humidity_wind div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+p{
+    font-size: 26px;
+    color: white;
+}
+
+.humidity_img, .wind_img {
+    width: 60px;
+    height: 60px;
+}
+
+.catch_main_div{
+    height: 674.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error_img{
+    width: 224px;
+    height: 224px;
+}
+
+
